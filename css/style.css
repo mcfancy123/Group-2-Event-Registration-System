@@ -1,0 +1,220 @@
+/* ===============================
+   GLOBAL RESET
+=================================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===============================
+   BODY
+=================================*/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f7fb;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ===============================
+   HEADER
+=================================*/
+header {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+/* ===============================
+   NAVIGATION
+=================================*/
+nav {
+    background: #142850;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #00c6ff;
+}
+
+/* ===============================
+   SECTIONS
+=================================*/
+section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 30px auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1e3c72;
+}
+
+/* ===============================
+   GALLERY
+=================================*/
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.event-card {
+    background: #ffffff;
+    width: 280px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+}
+
+.event-card:hover {
+    transform: translateY(-6px);
+}
+
+.event-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.event-card h3 {
+    padding: 12px;
+    color: #2a5298;
+}
+
+.event-card p {
+    padding: 0 12px 15px;
+    font-size: 14px;
+}
+
+/* ===============================
+   FORMS
+=================================*/
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #2a5298;
+}
+
+/* Radio buttons inline */
+input[type="radio"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 10px;
+    background: #2a5298;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #1e3c72;
+}
+
+/* ===============================
+   DASHBOARD
+=================================*/
+.dashboard-content {
+    text-align: center;
+}
+
+.user-info {
+    margin-top: 20px;
+}
+
+.user-info img {
+    margin-bottom: 15px;
+    border: 4px solid #2a5298;
+}
+
+/* ===============================
+   FOOTER
+=================================*/
+footer {
+    background: #142850;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+/* ===============================
+   TEAM SECTION
+=================================*/
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.team-card {
+    width: 220px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    text-align: center;
+    padding-bottom: 15px;
+    transition: 0.3s;
+}
+
+.team-card:hover {
+    transform: translateY(-6px);
+}
+
+.team-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.team-card h3 {
+    margin-top: 10px;
+    color: #1e3c72;
+}
+
+.team-card p {
+    font-size: 14px;
+    color: #555;
+}
