@@ -28,12 +28,12 @@ if (isset($_POST['login'])) {
 <head>
     <meta charset="UTF-8">
     <title>Login - Campus Event</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <header><h1>Login</h1></header>
     <nav>
-        <a href="index.php">Home</a>
+        <a href="index.html">Home</a>
         <a href="register.php">Register</a>
     </nav>
 

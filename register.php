@@ -89,7 +89,7 @@ if (isset($_POST['register'])) {
 <head>
     <meta charset="UTF-8">
     <title>Register - Campus Event</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
 
@@ -98,7 +98,7 @@ if (isset($_POST['register'])) {
 </header>
 
 <nav>
-    <a href="index.php">Home</a>
+    <a href="index.html">Home</a>
     <a href="login.php">Login</a>
 </nav>
 

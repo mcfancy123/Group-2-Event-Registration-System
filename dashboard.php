@@ -27,7 +27,7 @@ if ($gender == "Male") {
 <head>
     <meta charset="UTF-8">
     <title>Dashboard - Campus Event</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <header><h1>User Dashboard</h1></header>
